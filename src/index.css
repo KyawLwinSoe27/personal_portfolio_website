@@ -7,6 +7,7 @@
 :root{
     --primary-color: #F2E9E4;
     --secondary-color: #6C757D;
+    --oddpage-color: #F1F1F1;
 
     --transition: all 400ms ease;
 }

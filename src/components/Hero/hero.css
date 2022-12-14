@@ -1,0 +1,64 @@
+.hero_section{
+    padding: 90px 0;
+    width: 100%;
+    background-color: var(--oddpage-color) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.hero_text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    gap: 25px;
+}
+.name_group > div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+h2{
+    color: var(--secondary-color);
+    font-size: 45px;
+}
+h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+}
+.job{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 1px var(--secondary-color);
+}
+
+.cv{
+    background-color: var(--primary-color);
+    border-radius:28px;
+    padding:10px 20px;
+    color: var(--secondary-color);
+    transition: var(--transition);
+    cursor: pointer;
+    box-shadow: 0px 1px var(--secondary-color);
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button-group > a:last-child{
+    color: var(--secondary-color);
+}
+
+.hero_img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+.info-group > p {
+    color: var(--secondary-color);
+}
