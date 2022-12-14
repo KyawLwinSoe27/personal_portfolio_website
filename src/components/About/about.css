@@ -1,0 +1,35 @@
+.about_section{
+    background-color: var(--evenpage-color);
+    padding: 50px 0;
+}
+.heading-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-img img{
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+}
+.about_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.about-text{
+    width: 480px;
+}
+.about-text h4 , .about-text p {
+    text-align: right;
+}
+.about-text h4  {
+    font-size: 28px;
+    color: var(--secondary-color);
+}
+.about-text p{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
