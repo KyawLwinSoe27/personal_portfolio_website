@@ -1,6 +1,6 @@
 .service_section{
     padding:50px 0;
-    background-color: var(--oddpage-color);
+    background-color: var(--evenpage-color);
     width: 100%;
     
 }
