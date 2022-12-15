@@ -15,3 +15,36 @@
 body{
     font-family: 'Prompt', sans-serif;
 }
+.mb{
+    display: none;
+}
+@media screen and (max-width: 850px) {
+    body{
+        background-color: var(--primary-color);
+    }
+    body .mb{
+        display: block; 
+        text-align: center;
+        margin-top: 50%;
+        color: var(--secondary-color);
+    }
+    .navbar{
+        display: none !important;
+    }
+    .hero_section{
+        display: none !important;
+    }
+    .about_section{
+        display: none !important;
+    }
+    .project_section{
+        display: none !important;
+    }
+    .service_section{
+        display: none !important;
+    }
+    .contact_page{
+        display: none !important;
+    }
+    
+}
