@@ -10,6 +10,7 @@ import Projects from './components/Projects/Projects';
 const App = () => {
   return (
    <div>
+   <h4 className='mb'>Mobile Version is not currently supported.</h4>
     <Navbar />
     <Hero />
     <About />
