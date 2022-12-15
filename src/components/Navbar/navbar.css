@@ -15,6 +15,9 @@ a,ul,li {
     display: flex;
     justify-content: space-between;
     padding:0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
 }
 .nav{
     display: flex;
